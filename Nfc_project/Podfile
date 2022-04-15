@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+
+
+# Please remined that when you create ipa file for iOS project
+# and if you see archive create content not distribute app than you will 
+# need to go ==> target>build settings> skip install will be no 
+
+flutter_application_path = '../nfc_module'
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+target 'Nfc_project' do
+  install_all_flutter_pods(flutter_application_path)
+end

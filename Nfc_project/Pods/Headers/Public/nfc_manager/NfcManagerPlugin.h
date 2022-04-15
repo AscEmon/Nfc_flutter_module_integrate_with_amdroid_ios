@@ -1,0 +1,1 @@
+../../../../../nfc_module/.ios/.symlinks/plugins/nfc_manager/ios/Classes/NfcManagerPlugin.h

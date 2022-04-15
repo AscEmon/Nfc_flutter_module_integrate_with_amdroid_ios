@@ -1,0 +1,1 @@
+../../../../../nfc_module/.ios/.symlinks/plugins/package_info/ios/Classes/FLTPackageInfoPlugin.h
