@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09CDB1D8A61CAC59B4AD3E59 /* libPods-Nfc_project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F852B32C5B016D0F068A24A5 /* libPods-Nfc_project.a */; };
 		2AC6EB2E27FD44930026E333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6EB2D27FD44930026E333 /* AppDelegate.swift */; };
 		2AC6EB3027FD44930026E333 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6EB2F27FD44930026E333 /* SceneDelegate.swift */; };
 		2AC6EB3227FD44930026E333 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6EB3127FD44930026E333 /* ViewController.swift */; };
 		2AC6EB3527FD44930026E333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6EB3327FD44930026E333 /* Main.storyboard */; };
 		2AC6EB3727FD44950026E333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6EB3627FD44950026E333 /* Assets.xcassets */; };
 		2AC6EB3A27FD44950026E333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6EB3827FD44950026E333 /* LaunchScreen.storyboard */; };
+		E7E73FE3D662DF669A4127F9 /* libPods-Nfc_project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFEFB7C2DAEB64CA8A1F42C /* libPods-Nfc_project.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		2AC6EB3B27FD44950026E333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AC6EB4127FD71EE0026E333 /* Nfc_project.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nfc_project.entitlements; sourceTree = "<group>"; };
 		535B6011B46F3E34BB165E25 /* Pods-Nfc_project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nfc_project.release.xcconfig"; path = "Target Support Files/Pods-Nfc_project/Pods-Nfc_project.release.xcconfig"; sourceTree = "<group>"; };
+		7BFEFB7C2DAEB64CA8A1F42C /* libPods-Nfc_project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Nfc_project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42EB76B09F617D3CB9A2F67 /* Pods-Nfc_project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nfc_project.debug.xcconfig"; path = "Target Support Files/Pods-Nfc_project/Pods-Nfc_project.debug.xcconfig"; sourceTree = "<group>"; };
-		F852B32C5B016D0F068A24A5 /* libPods-Nfc_project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Nfc_project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09CDB1D8A61CAC59B4AD3E59 /* libPods-Nfc_project.a in Frameworks */,
+				E7E73FE3D662DF669A4127F9 /* libPods-Nfc_project.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 		9A95FA7611FEB746D0CEDDAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F852B32C5B016D0F068A24A5 /* libPods-Nfc_project.a */,
+				7BFEFB7C2DAEB64CA8A1F42C /* libPods-Nfc_project.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,11 +101,11 @@
 			buildConfigurationList = 2AC6EB3E27FD44950026E333 /* Build configuration list for PBXNativeTarget "Nfc_project" */;
 			buildPhases = (
 				693A99F03AF5700579870F04 /* [CP] Check Pods Manifest.lock */,
-				D68FF61746A9C147A62FF2FA /* [CP-User] Run Flutter Build nfc_module Script */,
+				000401A7C7F060DF6FCB642D /* [CP-User] Run Flutter Build nfc_module Script */,
 				2AC6EB2627FD44930026E333 /* Sources */,
 				2AC6EB2727FD44930026E333 /* Frameworks */,
 				2AC6EB2827FD44930026E333 /* Resources */,
-				1430F3E6BA5E48D30EC5BF4C /* [CP] Embed Pods Frameworks */,
+				BEE24CB4C6C159514A7036DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,22 +163,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1430F3E6BA5E48D30EC5BF4C /* [CP] Embed Pods Frameworks */ = {
+		000401A7C7F060DF6FCB642D /* [CP-User] Run Flutter Build nfc_module Script */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
+			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Nfc_project/Pods-Nfc_project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Nfc_project/Pods-Nfc_project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
+			name = "[CP-User] Run Flutter Build nfc_module Script";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nfc_project/Pods-Nfc_project-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../nfc_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
 		};
 		693A99F03AF5700579870F04 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -202,15 +195,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D68FF61746A9C147A62FF2FA /* [CP-User] Run Flutter Build nfc_module Script */ = {
+		BEE24CB4C6C159514A7036DD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			name = "[CP-User] Run Flutter Build nfc_module Script";
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nfc_project/Pods-Nfc_project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nfc_project/Pods-Nfc_project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../nfc_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nfc_project/Pods-Nfc_project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -376,7 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4AXQJVKA8H;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Nfc_project/Info.plist;
 				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses the NFC to read the tags.";
@@ -392,6 +392,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sslwireless.nfcreader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
@@ -411,7 +412,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4AXQJVKA8H;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Nfc_project/Info.plist;
 				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses the NFC to read the tags.";
@@ -427,6 +428,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sslwireless.nfcreader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;

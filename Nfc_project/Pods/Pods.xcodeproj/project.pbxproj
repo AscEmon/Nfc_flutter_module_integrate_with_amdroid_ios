@@ -30,33 +30,33 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		05E60AB8B8F95119B6D51EC5680189DD /* NfcManagerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8B3503A2EFF32A13C6D074089982DF /* NfcManagerPlugin.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0DFAC65F3E1EEB9F25FFC1B4631956D0 /* NfcManagerPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = E3847A933A9FC9D0890B6F587A9FA31D /* NfcManagerPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		10CE4A12B0AC6F284ACE11EB5DCE322F /* SqfliteOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = AD80E181F2BE2983905FC2D996ABD5DC /* SqfliteOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		05E60AB8B8F95119B6D51EC5680189DD /* NfcManagerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1445CF4190CD8E19C55A95BA8CC7B3 /* NfcManagerPlugin.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0DFAC65F3E1EEB9F25FFC1B4631956D0 /* NfcManagerPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 22886A814B9CF143677330D9458D33A0 /* NfcManagerPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		10CE4A12B0AC6F284ACE11EB5DCE322F /* SqfliteOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0438FFFC3D84B2B9D0FC52B2C5559063 /* SqfliteOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1B4D7D47BC77E55FB08662E2B68468C1 /* package_info-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB4CECF4364ADAD2A94368E8E33CBCF /* package_info-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		212E3A6FE041013EAB39BD921317B82F /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 261A5AA144CFEF791CD140FD88CD9B22 /* FMDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		22CC48A8D2BD227AEA453DA49A8573D4 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA824D837393E1CE84A1936EED78C25 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2B6E23DCC691F6298AAB914618497121 /* nfc_manager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 807CA350DC84A28D79961E070FAC2BD8 /* nfc_manager-dummy.m */; };
 		33A10C214398F7741EF8328CB81B4851 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 206631CBBFE0099FBAC67F1673A7F31C /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		387DD184310AA8981BD085AB6BE9EE53 /* sqflite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F9B0921FBF9648F8FFB3459585F68D /* sqflite-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3BA88080B69ACB981AF82480572EABC1 /* FLTPackageInfoPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CA8353168E3E976CCEDF5D84BAE89C /* FLTPackageInfoPlugin.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3BA88080B69ACB981AF82480572EABC1 /* FLTPackageInfoPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE17AED60E87D5EBBC9FE7DD1415420 /* FLTPackageInfoPlugin.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3C0AB431D61BB2489F6CFD20F3228414 /* nfc_manager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F63F720CC500299822AC61DD405BBE7A /* nfc_manager-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		502086843BEBA1054B7313939E90F40F /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FE411A8DB51308D8D2BC2A16644DE6 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6655F4E178741D2EF4557DC5D446232F /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = A10795A1823ED740F57709CFE4AC0481 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6E5761B959952D035334BC5A4164539A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 674F8E94C03E4A93A4F52B11FEE1EB5B /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		704F20B8BD488713E30696501F532A09 /* FLTPackageInfoPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = CB33802F18A4F1218C34B9AD7408D43A /* FLTPackageInfoPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		704F20B8BD488713E30696501F532A09 /* FLTPackageInfoPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 68249710954105B039A4422B0892F708 /* FLTPackageInfoPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		713B64DC0A9D7D317453BEA15E50E64B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CAC12E7B8C828447A610F937E7F042 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		72C10F9ED65200A9799B2DF7B0A4170D /* SqflitePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9DC5C560246098996D410796FD6F6F /* SqflitePlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72C10F9ED65200A9799B2DF7B0A4170D /* SqflitePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 298469D28F054300EB898DB001F4DFEA /* SqflitePlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		77298A58FB4879367C7BFE7819E429E9 /* GeneratedPluginRegistrant.h in Headers */ = {isa = PBXBuildFile; fileRef = B15E1B5E8D4A041A185FB812618CCE4E /* GeneratedPluginRegistrant.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7CD07B3F8788CF6496A0961C037F9486 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = E4627ED187D3E03EEFF6A5763B99DBE3 /* GeneratedPluginRegistrant.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8456F81C9991639D008A674C9B827A46 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 874DBF59ADB96A052E5B94465FAE387E /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8BC11C9DCF24685787EC7EF59843DE5B /* SqfliteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C205547FE818F4EE7A4D0F0BA7744CC7 /* SqfliteOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9A1C5F85276AA2650D81D2D40F78B635 /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DFA4E143598113129FBAC6371B757 /* Translator.swift */; };
+		8BC11C9DCF24685787EC7EF59843DE5B /* SqfliteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C83266805CD39D47165B5A050A50129A /* SqfliteOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9A1C5F85276AA2650D81D2D40F78B635 /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE659667D61BD3B25EA4EFFB4CCD5C29 /* Translator.swift */; };
 		AA42419055945BD505AB8AB41F7B7E16 /* Pods-Nfc_project-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B165FADA73EB6457E2971F31530E51 /* Pods-Nfc_project-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B1CFDA45CB1053A4B16F578338C13E99 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F4A6F7938AD34B42E920C57853A646 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C1EE37950875978AF68419A4A47C64DC /* Pods-Nfc_project-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F867076DB9095DA338DE2B1A47830FA /* Pods-Nfc_project-dummy.m */; };
-		C81B5FEAF7C5F4C1BDD26139455099FB /* SwiftNfcManagerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C110D234B7378A9B4E66B0320A3115 /* SwiftNfcManagerPlugin.swift */; };
-		C8B5457A037D55E0F2A76EE8CB4DE95C /* SqflitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7BB7BB55C67121D80AACCCC57204CA /* SqflitePlugin.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C81B5FEAF7C5F4C1BDD26139455099FB /* SwiftNfcManagerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE40D5F1424C03FCB6AF324C3019E3 /* SwiftNfcManagerPlugin.swift */; };
+		C8B5457A037D55E0F2A76EE8CB4DE95C /* SqflitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F83E6F05CD5C9B9A43607E07ED2D9C7B /* SqflitePlugin.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D0C5BB8A6F0FCC0A4F5FAFACEDEABD90 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 588C2595F474A6090506C29C306A5FA1 /* FMDB-dummy.m */; };
 		E2B3B8E2A3BC8BAB90683E1E1043D4A6 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C66FBF4AE1DC1F73057AF327003D304 /* FMResultSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E51E29A96EDCD2F41EE14204DB8D039E /* package_info-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B750C29E2625E30DDE3F5777C7F990F /* package_info-dummy.m */; };
@@ -182,23 +182,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0438FFFC3D84B2B9D0FC52B2C5559063 /* SqfliteOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SqfliteOperation.h; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2/ios/Classes/SqfliteOperation.h"; sourceTree = "<group>"; };
 		0B408B079F8245B1ED6AE8961EFD8688 /* FlutterPluginRegistrant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.release.xcconfig; sourceTree = "<group>"; };
 		0D062255A9DD16DF3183BCA193C7DD11 /* Pods-Nfc_project-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nfc_project-frameworks.sh"; sourceTree = "<group>"; };
 		10BDF09FE6D0C132B4992050D0563EF9 /* sqflite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sqflite.debug.xcconfig; sourceTree = "<group>"; };
 		10F9B0921FBF9648F8FFB3459585F68D /* sqflite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sqflite-umbrella.h"; sourceTree = "<group>"; };
 		1548B6EFEB8C3BBE6A2D96421B8CD868 /* sqflite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sqflite.release.xcconfig; sourceTree = "<group>"; };
 		206631CBBFE0099FBAC67F1673A7F31C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		22886A814B9CF143677330D9458D33A0 /* NfcManagerPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NfcManagerPlugin.h; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/nfc_manager-3.1.1/ios/Classes/NfcManagerPlugin.h"; sourceTree = "<group>"; };
 		23DAA9023578B119899EF80C5261AA11 /* FlutterPluginRegistrant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-umbrella.h"; sourceTree = "<group>"; };
 		261A5AA144CFEF791CD140FD88CD9B22 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		298469D28F054300EB898DB001F4DFEA /* SqflitePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SqflitePlugin.h; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2/ios/Classes/SqflitePlugin.h"; sourceTree = "<group>"; };
 		3D9A7D7153F3D8B6FA1634C96C56CA1F /* nfc_module.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nfc_module.debug.xcconfig; sourceTree = "<group>"; };
 		3EB4CECF4364ADAD2A94368E8E33CBCF /* package_info-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "package_info-umbrella.h"; sourceTree = "<group>"; };
 		3F867076DB9095DA338DE2B1A47830FA /* Pods-Nfc_project-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nfc_project-dummy.m"; sourceTree = "<group>"; };
 		42B165FADA73EB6457E2971F31530E51 /* Pods-Nfc_project-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nfc_project-umbrella.h"; sourceTree = "<group>"; };
-		434DFA4E143598113129FBAC6371B757 /* Translator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Translator.swift; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/nfc_manager-3.1.1/ios/Classes/Translator.swift"; sourceTree = "<group>"; };
 		4982B1ACA68E087A8ED737DD521DC07F /* sqflite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sqflite-dummy.m"; sourceTree = "<group>"; };
-		4A9DC5C560246098996D410796FD6F6F /* SqflitePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SqflitePlugin.h; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2/ios/Classes/SqflitePlugin.h"; sourceTree = "<group>"; };
 		4B750C29E2625E30DDE3F5777C7F990F /* package_info-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "package_info-dummy.m"; sourceTree = "<group>"; };
 		4BB50ED719403E5C0A1ED3FCFE1E1046 /* package_info-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "package_info-prefix.pch"; sourceTree = "<group>"; };
+		4F1445CF4190CD8E19C55A95BA8CC7B3 /* NfcManagerPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NfcManagerPlugin.m; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/nfc_manager-3.1.1/ios/Classes/NfcManagerPlugin.m"; sourceTree = "<group>"; };
+		4FEE40D5F1424C03FCB6AF324C3019E3 /* SwiftNfcManagerPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftNfcManagerPlugin.swift; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/nfc_manager-3.1.1/ios/Classes/SwiftNfcManagerPlugin.swift"; sourceTree = "<group>"; };
 		532A1BCCCA0546CB3515D1CE30EE9663 /* nfc_module.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nfc_module.release.xcconfig; sourceTree = "<group>"; };
 		588C2595F474A6090506C29C306A5FA1 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
 		59D3B0345D3D6E90B7044FA59ADA481F /* nfc_manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nfc_manager.debug.xcconfig; sourceTree = "<group>"; };
@@ -207,6 +210,7 @@
 		618ECFCA881662CAD25289996B2FA35C /* package_info.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = package_info.modulemap; sourceTree = "<group>"; };
 		61928D56046A27DB469AC9B64041DB61 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
 		674F8E94C03E4A93A4F52B11FEE1EB5B /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		68249710954105B039A4422B0892F708 /* FLTPackageInfoPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTPackageInfoPlugin.h; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/package_info-2.0.2/ios/Classes/FLTPackageInfoPlugin.h"; sourceTree = "<group>"; };
 		6A79F79137EF2DEBE8F1F3A5E3031A3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/nfc_manager-3.1.1/LICENSE"; sourceTree = "<group>"; };
 		6DCF81C047CE7D4B27B7848D62DC7166 /* FlutterPluginRegistrant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-prefix.pch"; sourceTree = "<group>"; };
 		6E45859F778E298A6DDE318300ACC4C5 /* package_info */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = package_info; path = libpackage_info.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -222,27 +226,25 @@
 		8E596CE923033D6A6E00929DCD42F582 /* nfc_manager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nfc_manager-prefix.pch"; sourceTree = "<group>"; };
 		916B5F2A24B4E547D35291A0FC9EA9C9 /* sqflite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = sqflite.podspec; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2/ios/sqflite.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94BABEC3B2DD09010CFD8AF599F11D8F /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95C110D234B7378A9B4E66B0320A3115 /* SwiftNfcManagerPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftNfcManagerPlugin.swift; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/nfc_manager-3.1.1/ios/Classes/SwiftNfcManagerPlugin.swift"; sourceTree = "<group>"; };
 		9C66FBF4AE1DC1F73057AF327003D304 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A06AEFE5AD325AC3A31267472D739BB9 /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
 		A10795A1823ED740F57709CFE4AC0481 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
 		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = FMDB; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3FE411A8DB51308D8D2BC2A16644DE6 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
-		AD80E181F2BE2983905FC2D996ABD5DC /* SqfliteOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SqfliteOperation.h; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2/ios/Classes/SqfliteOperation.h"; sourceTree = "<group>"; };
 		B15E1B5E8D4A041A185FB812618CCE4E /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeneratedPluginRegistrant.h; path = Classes/GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		B1E57D77653C0BBF575247D14E3A7DD4 /* package_info.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = package_info.podspec; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/package_info-2.0.2/ios/package_info.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B73C9DE7A2186DBE8324D0B3B2415A49 /* Flutter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Flutter-xcframeworks.sh"; sourceTree = "<group>"; };
 		B799BFFEC5B11F90F501202080A57F37 /* sqflite */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = sqflite; path = libsqflite.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC273893C8F928B83AFCCA30326CAE7 /* FlutterPluginRegistrant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.debug.xcconfig; sourceTree = "<group>"; };
+		BBE17AED60E87D5EBBC9FE7DD1415420 /* FLTPackageInfoPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLTPackageInfoPlugin.m; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/package_info-2.0.2/ios/Classes/FLTPackageInfoPlugin.m"; sourceTree = "<group>"; };
 		BE528CED42561BED2D992A4900E72D7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2/LICENSE"; sourceTree = "<group>"; };
+		BE659667D61BD3B25EA4EFFB4CCD5C29 /* Translator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Translator.swift; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/nfc_manager-3.1.1/ios/Classes/Translator.swift"; sourceTree = "<group>"; };
 		C11AADEABAA41B714311559758C1EC64 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
-		C205547FE818F4EE7A4D0F0BA7744CC7 /* SqfliteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SqfliteOperation.m; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2/ios/Classes/SqfliteOperation.m"; sourceTree = "<group>"; };
 		C635527AE92B0E24E32A72D0FB25A428 /* Pods-Nfc_project-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nfc_project-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C76B5EB48148C84DC218E17A0CFECB7F /* nfc_manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nfc_manager.release.xcconfig; sourceTree = "<group>"; };
-		CB33802F18A4F1218C34B9AD7408D43A /* FLTPackageInfoPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTPackageInfoPlugin.h; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/package_info-2.0.2/ios/Classes/FLTPackageInfoPlugin.h"; sourceTree = "<group>"; };
+		C83266805CD39D47165B5A050A50129A /* SqfliteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SqfliteOperation.m; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2/ios/Classes/SqfliteOperation.m"; sourceTree = "<group>"; };
 		CCADD385C060EE158640E2FAD9D0D6BA /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
-		CD7BB7BB55C67121D80AACCCC57204CA /* SqflitePlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SqflitePlugin.m; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2/ios/Classes/SqflitePlugin.m"; sourceTree = "<group>"; };
 		CD7D42F69AA2A4BD2C6E901778D40E4F /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Flutter.xcframework; sourceTree = "<group>"; };
 		CE7BA863371E3DEA7D36B3ECF0C8D600 /* nfc_manager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = nfc_manager.modulemap; sourceTree = "<group>"; };
 		D1782578203C2D0A9D3C8141F7841D05 /* Pods-Nfc_project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nfc_project.debug.xcconfig"; sourceTree = "<group>"; };
@@ -250,16 +252,14 @@
 		DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = FlutterPluginRegistrant; path = libFlutterPluginRegistrant.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A37D02642EF912D1238E8CE67184E8 /* sqflite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sqflite-prefix.pch"; sourceTree = "<group>"; };
 		E1D606A4E20D79C97333D0F48890D8C3 /* FlutterPluginRegistrant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlutterPluginRegistrant-dummy.m"; sourceTree = "<group>"; };
-		E2CA8353168E3E976CCEDF5D84BAE89C /* FLTPackageInfoPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLTPackageInfoPlugin.m; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/package_info-2.0.2/ios/Classes/FLTPackageInfoPlugin.m"; sourceTree = "<group>"; };
-		E3847A933A9FC9D0890B6F587A9FA31D /* NfcManagerPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NfcManagerPlugin.h; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/nfc_manager-3.1.1/ios/Classes/NfcManagerPlugin.h"; sourceTree = "<group>"; };
 		E4627ED187D3E03EEFF6A5763B99DBE3 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeneratedPluginRegistrant.m; path = Classes/GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		E4CAC12E7B8C828447A610F937E7F042 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		E7D97F3F82AC7A98783226B4150B8553 /* Pods-Nfc_project-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nfc_project-acknowledgements.plist"; sourceTree = "<group>"; };
 		E941ACA6FB63CA875F1194986B618E3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/package_info-2.0.2/LICENSE"; sourceTree = "<group>"; };
 		E945CC215364DF6A02257718531EC9CF /* nfc_manager */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = nfc_manager; path = libnfc_manager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE8B3503A2EFF32A13C6D074089982DF /* NfcManagerPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NfcManagerPlugin.m; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/nfc_manager-3.1.1/ios/Classes/NfcManagerPlugin.m"; sourceTree = "<group>"; };
 		F22BF23241139B19E8AC8C4F9CE0C1B8 /* Pods-Nfc_project.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Nfc_project.modulemap"; sourceTree = "<group>"; };
 		F63F720CC500299822AC61DD405BBE7A /* nfc_manager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nfc_manager-umbrella.h"; sourceTree = "<group>"; };
+		F83E6F05CD5C9B9A43607E07ED2D9C7B /* SqflitePlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SqflitePlugin.m; path = "../../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2/ios/Classes/SqflitePlugin.m"; sourceTree = "<group>"; };
 		FC1FE278DB1B2E302170F7C8C363B96E /* nfc_module.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = nfc_module.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC2A67185FD567962B38C4C5A53EED9D /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
 		FDB28900A8F0918B58E40E369904F68F /* nfc_manager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = nfc_manager.podspec; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/nfc_manager-3.1.1/ios/nfc_manager.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -312,6 +312,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0543917E8158D7A27EDA0174DEFFB20A /* nfc_manager */ = {
+			isa = PBXGroup;
+			children = (
+				FBCF8C2699EA52F32C8C1DEA4D74FA1C /* ios */,
+			);
+			name = nfc_manager;
+			path = nfc_manager;
+			sourceTree = "<group>";
+		};
+		0553C0233128DC1D16902961E2DB3C61 /* sqflite */ = {
+			isa = PBXGroup;
+			children = (
+				C6758B5AEF64D1C41513E5ED904B22C7 /* ios */,
+			);
+			name = sqflite;
+			path = sqflite;
+			sourceTree = "<group>";
+		};
 		06BCBC749C4E6B45702EFDD121EC5B63 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,15 +348,6 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		081BE000CD622430BDF7644DD38AEA66 /* plugins */ = {
-			isa = PBXGroup;
-			children = (
-				6D4FC3091FE6DDA7B9FAEAB7A18ADC05 /* package_info */,
-			);
-			name = plugins;
-			path = plugins;
-			sourceTree = "<group>";
-		};
 		08FAD86A803641A102396FA1A25A8B84 /* package_info */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,22 +359,31 @@
 			path = ../../nfc_module/.ios/.symlinks/plugins/package_info/ios;
 			sourceTree = "<group>";
 		};
-		0A98EB07E037F3F214F44459C085D7AC /* ios */ = {
+		09A7F409693C4B117C4BB7CDA9BF2B92 /* Nfc_flutter_module_integrate_with_amdroid_ios */ = {
 			isa = PBXGroup;
 			children = (
-				74324308F79AF6A2CBD6CCDB02936AE3 /* Classes */,
+				C3A1BFBDF00AEFD98C2A14B3AF291D06 /* nfc_module */,
 			);
-			name = ios;
-			path = ios;
+			name = Nfc_flutter_module_integrate_with_amdroid_ios;
+			path = Nfc_flutter_module_integrate_with_amdroid_ios;
 			sourceTree = "<group>";
 		};
-		0D45BA0EED74E40BC8443B2CD2EA70EC /* .symlinks */ = {
+		0DBBADEFD2FA63DFE227F34214E1353A /* .ios */ = {
 			isa = PBXGroup;
 			children = (
-				9251954D88F33BE7052EB58CC82ED19A /* plugins */,
+				86DD4919F5B3B874AB8EA83B008EA7D8 /* .symlinks */,
 			);
-			name = .symlinks;
-			path = .symlinks;
+			name = .ios;
+			path = .ios;
+			sourceTree = "<group>";
+		};
+		0EF81550E002D206FEB4D7DEA862BA35 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				75D9A47DC8AB83D47C33F43A9648DA6E /* package_info */,
+			);
+			name = plugins;
+			path = plugins;
 			sourceTree = "<group>";
 		};
 		0F2864B83530076FD76CF9BCEA48918F /* Support Files */ = {
@@ -389,6 +407,15 @@
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		10EA265249B5871C71CFCC30D283BD29 /* nfc_module */ = {
+			isa = PBXGroup;
+			children = (
+				0DBBADEFD2FA63DFE227F34214E1353A /* .ios */,
+			);
+			name = nfc_module;
+			path = nfc_module;
 			sourceTree = "<group>";
 		};
 		14AFF097B59E4C74BD5A2BA1A311111B /* .. */ = {
@@ -437,10 +464,22 @@
 			path = "../../../../Nfc_project/Pods/Target Support Files/FlutterPluginRegistrant";
 			sourceTree = "<group>";
 		};
+		22994D1FCA5EFAAC3564FC0C320DFA7C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				22886A814B9CF143677330D9458D33A0 /* NfcManagerPlugin.h */,
+				4F1445CF4190CD8E19C55A95BA8CC7B3 /* NfcManagerPlugin.m */,
+				4FEE40D5F1424C03FCB6AF324C3019E3 /* SwiftNfcManagerPlugin.swift */,
+				BE659667D61BD3B25EA4EFFB4CCD5C29 /* Translator.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		259CD1B6D57D74950AF36B20EA85ACE3 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				B3C02D374B8942319CF391DA756C427D /* Desktop */,
+				D19FE62FBD9F6A94346FB20AF6992177 /* Desktop */,
 			);
 			name = ..;
 			path = ..;
@@ -475,6 +514,15 @@
 			path = "../Target Support Files/FMDB";
 			sourceTree = "<group>";
 		};
+		366732E1988E925363D8CCF004F03415 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				80F65AE9F10BC37AAF9EA2EB648BFD82 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
 		37717630DBF85BC35DE47A255F935967 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -482,15 +530,6 @@
 			);
 			name = ..;
 			path = ..;
-			sourceTree = "<group>";
-		};
-		3D893C99ECFD8F4763D3C2F305B34AFA /* Desktop */ = {
-			isa = PBXGroup;
-			children = (
-				9A8BCA941D931D34E9708F2066AAF7F2 /* Nfc_integrate_viamodule */,
-			);
-			name = Desktop;
-			path = Desktop;
 			sourceTree = "<group>";
 		};
 		3E9D8A94C59AAF51D33FCF093486F73D /* Pod */ = {
@@ -535,16 +574,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		41620623D215F3E704CAFBEED9256FEB /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CB33802F18A4F1218C34B9AD7408D43A /* FLTPackageInfoPlugin.h */,
-				E2CA8353168E3E976CCEDF5D84BAE89C /* FLTPackageInfoPlugin.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		41776E7E5EDD472CC3606259FEA89F23 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -571,15 +600,6 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		4536426BC5F8F69D6BC0C1DCD695F9AC /* .symlinks */ = {
-			isa = PBXGroup;
-			children = (
-				AE0F9786A5B7DDB248149AA8155C18BD /* plugins */,
-			);
-			name = .symlinks;
-			path = .symlinks;
-			sourceTree = "<group>";
-		};
 		467E58A45B5731913C949145A74FA4DF /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
@@ -590,31 +610,13 @@
 			path = FMDB;
 			sourceTree = "<group>";
 		};
-		4DB378AED8080E941F07B2E871EBE1EA /* sqflite */ = {
+		4CF39AD48BA044B885AC74BE5F89805C /* plugins */ = {
 			isa = PBXGroup;
 			children = (
-				0A98EB07E037F3F214F44459C085D7AC /* ios */,
+				0553C0233128DC1D16902961E2DB3C61 /* sqflite */,
 			);
-			name = sqflite;
-			path = sqflite;
-			sourceTree = "<group>";
-		};
-		54C4EAE21F0358CCBEEEE6D84B8C9411 /* .ios */ = {
-			isa = PBXGroup;
-			children = (
-				645CA23CC6B6B898EB8D4CAE4B3B4C15 /* .symlinks */,
-			);
-			name = .ios;
-			path = .ios;
-			sourceTree = "<group>";
-		};
-		578A91D916F2B780DB0CA0614748988F /* nfc_module */ = {
-			isa = PBXGroup;
-			children = (
-				96071026A1AED080D2D33AF818BAD688 /* .ios */,
-			);
-			name = nfc_module;
-			path = nfc_module;
+			name = plugins;
+			path = plugins;
 			sourceTree = "<group>";
 		};
 		588DD6004D32C8EB2B3D346934F74AA4 /* .. */ = {
@@ -658,15 +660,6 @@
 			path = "../../../../Nfc_project/Pods/Target Support Files/Flutter";
 			sourceTree = "<group>";
 		};
-		645CA23CC6B6B898EB8D4CAE4B3B4C15 /* .symlinks */ = {
-			isa = PBXGroup;
-			children = (
-				081BE000CD622430BDF7644DD38AEA66 /* plugins */,
-			);
-			name = .symlinks;
-			path = .symlinks;
-			sourceTree = "<group>";
-		};
 		6889C4D8AE34C86CFF7EC80701434DC5 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -674,6 +667,18 @@
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		68B9E777B36A6EFC1B338B2E587A1A97 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0438FFFC3D84B2B9D0FC52B2C5559063 /* SqfliteOperation.h */,
+				C83266805CD39D47165B5A050A50129A /* SqfliteOperation.m */,
+				298469D28F054300EB898DB001F4DFEA /* SqflitePlugin.h */,
+				F83E6F05CD5C9B9A43607E07ED2D9C7B /* SqflitePlugin.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		68DB21AE5492FC581291330CF6E902BA /* Pods */ = {
@@ -684,25 +689,49 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6D4FC3091FE6DDA7B9FAEAB7A18ADC05 /* package_info */ = {
+		72944A31FDE04335E5474B47C292B8AE /* Desktop */ = {
 			isa = PBXGroup;
 			children = (
-				C210EF2BE73513176253EA3EA5E9C97A /* ios */,
+				C9C4B224168B6E064313F5C68AD3A001 /* Nfc_flutter_module_integrate_with_amdroid_ios */,
+			);
+			name = Desktop;
+			path = Desktop;
+			sourceTree = "<group>";
+		};
+		75AC574FCFDF8B254694B4F008630621 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				0543917E8158D7A27EDA0174DEFFB20A /* nfc_manager */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		75D9A47DC8AB83D47C33F43A9648DA6E /* package_info */ = {
+			isa = PBXGroup;
+			children = (
+				366732E1988E925363D8CCF004F03415 /* ios */,
 			);
 			name = package_info;
 			path = package_info;
 			sourceTree = "<group>";
 		};
-		74324308F79AF6A2CBD6CCDB02936AE3 /* Classes */ = {
+		7616F95ED629D185DF19078F2E457081 /* Nfc_flutter_module_integrate_with_amdroid_ios */ = {
 			isa = PBXGroup;
 			children = (
-				AD80E181F2BE2983905FC2D996ABD5DC /* SqfliteOperation.h */,
-				C205547FE818F4EE7A4D0F0BA7744CC7 /* SqfliteOperation.m */,
-				4A9DC5C560246098996D410796FD6F6F /* SqflitePlugin.h */,
-				CD7BB7BB55C67121D80AACCCC57204CA /* SqflitePlugin.m */,
+				E70181CF45C43E859EE8A21874B11283 /* nfc_module */,
 			);
-			name = Classes;
-			path = Classes;
+			name = Nfc_flutter_module_integrate_with_amdroid_ios;
+			path = Nfc_flutter_module_integrate_with_amdroid_ios;
+			sourceTree = "<group>";
+		};
+		77127E106388ACBC10C38187EF40EB52 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				75AC574FCFDF8B254694B4F008630621 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
 			sourceTree = "<group>";
 		};
 		79299D3B67A22EDC3F824D466B3B79DA /* Support Files */ = {
@@ -736,19 +765,20 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		80F3B2D54781554CE7A17A9A0660A78B /* Desktop */ = {
+		80F65AE9F10BC37AAF9EA2EB648BFD82 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A86AA07B9F26E486FA90AD465A82A330 /* Nfc_integrate_viamodule */,
+				68249710954105B039A4422B0892F708 /* FLTPackageInfoPlugin.h */,
+				BBE17AED60E87D5EBBC9FE7DD1415420 /* FLTPackageInfoPlugin.m */,
 			);
-			name = Desktop;
-			path = Desktop;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		83CED382C54B88DCD08DD89784018DEA /* .ios */ = {
+		81F3B47D8F3D246AF01A3FD6D61ADD50 /* .ios */ = {
 			isa = PBXGroup;
 			children = (
-				4536426BC5F8F69D6BC0C1DCD695F9AC /* .symlinks */,
+				BE77C71235552DC572F6F0D925F5CAFC /* .symlinks */,
 			);
 			name = .ios;
 			path = .ios;
@@ -763,25 +793,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		866A82E8E82AFA8795FE6888E51B0275 /* Classes */ = {
+		86DD4919F5B3B874AB8EA83B008EA7D8 /* .symlinks */ = {
 			isa = PBXGroup;
 			children = (
-				E3847A933A9FC9D0890B6F587A9FA31D /* NfcManagerPlugin.h */,
-				EE8B3503A2EFF32A13C6D074089982DF /* NfcManagerPlugin.m */,
-				95C110D234B7378A9B4E66B0320A3115 /* SwiftNfcManagerPlugin.swift */,
-				434DFA4E143598113129FBAC6371B757 /* Translator.swift */,
+				0EF81550E002D206FEB4D7DEA862BA35 /* plugins */,
 			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		88F68D251AB8590F48862183AC2E7114 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				866A82E8E82AFA8795FE6888E51B0275 /* Classes */,
-			);
-			name = ios;
-			path = ios;
+			name = .symlinks;
+			path = .symlinks;
 			sourceTree = "<group>";
 		};
 		8A3CA5EAC28DE5AEAAD7D048110C7C7B /* .. */ = {
@@ -813,15 +831,6 @@
 			path = ../../nfc_module/.ios/Flutter/engine;
 			sourceTree = "<group>";
 		};
-		9251954D88F33BE7052EB58CC82ED19A /* plugins */ = {
-			isa = PBXGroup;
-			children = (
-				94E9DA630B2C7D294EE11E0420C58CF8 /* nfc_manager */,
-			);
-			name = plugins;
-			path = plugins;
-			sourceTree = "<group>";
-		};
 		942D54FAAE2C1FC9C42A8B9BEE75460B /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -829,42 +838,6 @@
 			);
 			name = ..;
 			path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2/ios";
-			sourceTree = "<group>";
-		};
-		94E9DA630B2C7D294EE11E0420C58CF8 /* nfc_manager */ = {
-			isa = PBXGroup;
-			children = (
-				88F68D251AB8590F48862183AC2E7114 /* ios */,
-			);
-			name = nfc_manager;
-			path = nfc_manager;
-			sourceTree = "<group>";
-		};
-		96071026A1AED080D2D33AF818BAD688 /* .ios */ = {
-			isa = PBXGroup;
-			children = (
-				0D45BA0EED74E40BC8443B2CD2EA70EC /* .symlinks */,
-			);
-			name = .ios;
-			path = .ios;
-			sourceTree = "<group>";
-		};
-		98A6162DE3090C90CB47AAE2763992FA /* Nfc_integrate_viamodule */ = {
-			isa = PBXGroup;
-			children = (
-				578A91D916F2B780DB0CA0614748988F /* nfc_module */,
-			);
-			name = Nfc_integrate_viamodule;
-			path = Nfc_integrate_viamodule;
-			sourceTree = "<group>";
-		};
-		9A8BCA941D931D34E9708F2066AAF7F2 /* Nfc_integrate_viamodule */ = {
-			isa = PBXGroup;
-			children = (
-				AB6AE34328066F20989302212F3B1CB3 /* nfc_module */,
-			);
-			name = Nfc_integrate_viamodule;
-			path = Nfc_integrate_viamodule;
 			sourceTree = "<group>";
 		};
 		9ACA0658AFAF18D3EFE95F4C09BE6CA0 /* .. */ = {
@@ -898,31 +871,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		A86AA07B9F26E486FA90AD465A82A330 /* Nfc_integrate_viamodule */ = {
+		AFDC0A9B95BDCD36DCAE2187C9479051 /* .ios */ = {
 			isa = PBXGroup;
 			children = (
-				FB3DBDD5890803E4B81125CA05D29036 /* nfc_module */,
+				77127E106388ACBC10C38187EF40EB52 /* .symlinks */,
 			);
-			name = Nfc_integrate_viamodule;
-			path = Nfc_integrate_viamodule;
-			sourceTree = "<group>";
-		};
-		AB6AE34328066F20989302212F3B1CB3 /* nfc_module */ = {
-			isa = PBXGroup;
-			children = (
-				83CED382C54B88DCD08DD89784018DEA /* .ios */,
-			);
-			name = nfc_module;
-			path = nfc_module;
-			sourceTree = "<group>";
-		};
-		AE0F9786A5B7DDB248149AA8155C18BD /* plugins */ = {
-			isa = PBXGroup;
-			children = (
-				4DB378AED8080E941F07B2E871EBE1EA /* sqflite */,
-			);
-			name = plugins;
-			path = plugins;
+			name = .ios;
+			path = .ios;
 			sourceTree = "<group>";
 		};
 		B03E773E9418EC1667D686E2E2F1D66F /* FlutterPluginRegistrant */ = {
@@ -946,15 +901,6 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		B3C02D374B8942319CF391DA756C427D /* Desktop */ = {
-			isa = PBXGroup;
-			children = (
-				98A6162DE3090C90CB47AAE2763992FA /* Nfc_integrate_viamodule */,
-			);
-			name = Desktop;
-			path = Desktop;
-			sourceTree = "<group>";
-		};
 		B6F115359A0BF8010435B89B0B4AE624 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -973,13 +919,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		C210EF2BE73513176253EA3EA5E9C97A /* ios */ = {
+		BE77C71235552DC572F6F0D925F5CAFC /* .symlinks */ = {
 			isa = PBXGroup;
 			children = (
-				41620623D215F3E704CAFBEED9256FEB /* Classes */,
+				4CF39AD48BA044B885AC74BE5F89805C /* plugins */,
 			);
-			name = ios;
-			path = ios;
+			name = .symlinks;
+			path = .symlinks;
 			sourceTree = "<group>";
 		};
 		C22980A7F62FD22608A984B0DA24D424 /* standard */ = {
@@ -1000,6 +946,15 @@
 			name = standard;
 			sourceTree = "<group>";
 		};
+		C3A1BFBDF00AEFD98C2A14B3AF291D06 /* nfc_module */ = {
+			isa = PBXGroup;
+			children = (
+				81F3B47D8F3D246AF01A3FD6D61ADD50 /* .ios */,
+			);
+			name = nfc_module;
+			path = nfc_module;
+			sourceTree = "<group>";
+		};
 		C5FE2151EF01391EC6A2E573CF255881 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1008,6 +963,15 @@
 			);
 			name = "Support Files";
 			path = "../../../Nfc_project/Pods/Target Support Files/nfc_module";
+			sourceTree = "<group>";
+		};
+		C6758B5AEF64D1C41513E5ED904B22C7 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				68B9E777B36A6EFC1B338B2E587A1A97 /* Classes */,
+			);
+			name = ios;
+			path = ios;
 			sourceTree = "<group>";
 		};
 		C678216003DC876E7E7AB9F159D6E482 /* sqflite */ = {
@@ -1024,10 +988,19 @@
 		C74D1BFE60820106111BBF849B9F9B03 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				80F3B2D54781554CE7A17A9A0660A78B /* Desktop */,
+				72944A31FDE04335E5474B47C292B8AE /* Desktop */,
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		C9C4B224168B6E064313F5C68AD3A001 /* Nfc_flutter_module_integrate_with_amdroid_ios */ = {
+			isa = PBXGroup;
+			children = (
+				10EA265249B5871C71CFCC30D283BD29 /* nfc_module */,
+			);
+			name = Nfc_flutter_module_integrate_with_amdroid_ios;
+			path = Nfc_flutter_module_integrate_with_amdroid_ios;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -1045,10 +1018,19 @@
 		D0335BDD229AD1A31495E34340A3C17A /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				3D893C99ECFD8F4763D3C2F305B34AFA /* Desktop */,
+				D8A781291EEB57D5BD1D1B196E0DC738 /* Desktop */,
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		D19FE62FBD9F6A94346FB20AF6992177 /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				7616F95ED629D185DF19078F2E457081 /* Nfc_flutter_module_integrate_with_amdroid_ios */,
+			);
+			name = Desktop;
+			path = Desktop;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -1056,6 +1038,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8A781291EEB57D5BD1D1B196E0DC738 /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				09A7F409693C4B117C4BB7CDA9BF2B92 /* Nfc_flutter_module_integrate_with_amdroid_ios */,
+			);
+			name = Desktop;
+			path = Desktop;
 			sourceTree = "<group>";
 		};
 		E022F8E73391A20001BDF91B5DCE4869 /* nfc_manager */ = {
@@ -1067,6 +1058,15 @@
 			);
 			name = nfc_manager;
 			path = ../../nfc_module/.ios/.symlinks/plugins/nfc_manager/ios;
+			sourceTree = "<group>";
+		};
+		E70181CF45C43E859EE8A21874B11283 /* nfc_module */ = {
+			isa = PBXGroup;
+			children = (
+				AFDC0A9B95BDCD36DCAE2187C9479051 /* .ios */,
+			);
+			name = nfc_module;
+			path = nfc_module;
 			sourceTree = "<group>";
 		};
 		EB8FC8CD85D18DB46025894D4F6A06B3 /* nfc_module */ = {
@@ -1097,13 +1097,13 @@
 			path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/nfc_manager-3.1.1/ios";
 			sourceTree = "<group>";
 		};
-		FB3DBDD5890803E4B81125CA05D29036 /* nfc_module */ = {
+		FBCF8C2699EA52F32C8C1DEA4D74FA1C /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				54C4EAE21F0358CCBEEEE6D84B8C9411 /* .ios */,
+				22994D1FCA5EFAAC3564FC0C320DFA7C /* Classes */,
 			);
-			name = nfc_module;
-			path = nfc_module;
+			name = ios;
+			path = ios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1620,49 +1620,7 @@
 			};
 			name = Release;
 		};
-		405FEA49AE58D78B1280A546D220C17B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B408B079F8245B1ED6AE8961EFD8688 /* FlutterPluginRegistrant.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MODULEMAP_FILE = Headers/Public/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = FlutterPluginRegistrant;
-				PRODUCT_NAME = FlutterPluginRegistrant;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8DA47BCCEDB028C05F4872AD956BE203 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 532A1BCCCA0546CB3515D1CE30EE9663 /* nfc_module.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1715,7 +1673,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1728,7 +1686,54 @@
 			};
 			name = Debug;
 		};
-		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+		405FEA49AE58D78B1280A546D220C17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B408B079F8245B1ED6AE8961EFD8688 /* FlutterPluginRegistrant.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FlutterPluginRegistrant;
+				PRODUCT_NAME = FlutterPluginRegistrant;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4670BA864FC2DA9C525EB4FBF7CF82E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1782578203C2D0A9D3C8141F7841D05 /* Pods-Nfc_project.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nfc_project/Pods-Nfc_project.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1778,7 +1783,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1787,6 +1792,46 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8997DE0D470F9A579AC064A801557134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0A558B9FAA1BD1B3DC1454C1BDE8F8 /* Pods-Nfc_project.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nfc_project/Pods-Nfc_project.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DA47BCCEDB028C05F4872AD956BE203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532A1BCCCA0546CB3515D1CE30EE9663 /* nfc_module.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1854,29 +1899,6 @@
 			};
 			name = Debug;
 		};
-		D5786153CC3878FEBDD6578C30E90758 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F0A558B9FAA1BD1B3DC1454C1BDE8F8 /* Pods-Nfc_project.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Nfc_project/Pods-Nfc_project.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		DCB94C16EF7D6ADFB9362D764B722099 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 10BDF09FE6D0C132B4992050D0563EF9 /* sqflite.debug.xcconfig */;
@@ -1925,28 +1947,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		E5D3C0BDC8B527E2CD9B6D36554F21E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1782578203C2D0A9D3C8141F7841D05 /* Pods-Nfc_project.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Nfc_project/Pods-Nfc_project.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		E9A8F90AC4F820E13D090CCDBD703E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2019,8 +2019,8 @@
 		30254346B2937C3098509994A3F44024 /* Build configuration list for PBXNativeTarget "Pods-Nfc_project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5D3C0BDC8B527E2CD9B6D36554F21E5 /* Debug */,
-				D5786153CC3878FEBDD6578C30E90758 /* Release */,
+				4670BA864FC2DA9C525EB4FBF7CF82E5 /* Debug */,
+				8997DE0D470F9A579AC064A801557134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2037,8 +2037,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
-				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
