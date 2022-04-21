@@ -7,15 +7,15 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="gradleJvm" value="Android Studio default JDK" />
         <option name="modules">
           <set>
-            <option value="C:/src/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/nfc_manager-3.1.1/android" />
-            <option value="C:/src/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/package_info-2.0.2/android" />
-            <option value="C:/src/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2/android" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/../nfc_module/.android/Flutter" />
+            <option value="$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/nfc_manager-3.1.1/android" />
+            <option value="$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/package_info-2.0.2/android" />
+            <option value="$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2/android" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
