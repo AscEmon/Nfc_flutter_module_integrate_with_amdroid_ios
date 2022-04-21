@@ -18,6 +18,9 @@ class ViewController: UIViewController {
     let flutterEngine = (UIApplication.shared.delegate as! AppDelegate).flutterEngine
     let flutterViewController =
         FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
-    present(flutterViewController, animated: true, completion: nil)
+//    present(flutterViewController, animated: true, completion: nil)
+        //To hide Navigationbar and open full screen in flutter
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+        self.navigationController?.pushViewController(flutterViewController, animated: true)
   }
 }
